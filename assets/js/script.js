@@ -34,17 +34,17 @@ const questions = [
         VF    : 'false',
         answers  : [
             { text: "a) Realizar extrações dentárias", correct : false},
-            { text: "b) Promover a conscientização sobre a importância da higiene bucal", correct : true},
+            { text: "b) Tratar doenças gengivais avançadas", correct : false},
             { text: "c) Realizar procedimentos estéticos nos dentes", correct : false},
-            { text: "d) Tratar doenças gengivais avançadas", correct : false},
+            { text: "d) Promover a conscientização sobre a importância da higiene bucal", correct : true},
         ]
     },
     {
         question : "Qual é o método mais recomendado para escovação dos dentes?", 
         VF    : 'false',
         answers  : [
+            { text: "a) Movimentos circulares", correct : true},
             { text: "a) Movimentos horizontais", correct : false},
-            { text: "b) Movimentos circulares", correct : true},
             { text: "c) Movimentos verticais", correct : false},
             { text: "d) Não importa, desde que os dentes sejam escovados.", correct : false},
         ]
