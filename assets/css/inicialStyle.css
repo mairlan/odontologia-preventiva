@@ -22,8 +22,7 @@ body{
 .caixa {
     width: 621px;
     height: 517px;
-    background-image: url(../img/quiz-1.png);
-    background-repeat: no-repeat;
+    background-color: #00B8B0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,6 +40,35 @@ body{
 #titulo {
     text-align: center;
     color: white;
+}
+.meio {
+    display: flex;
+    flex-direction: row;
+}
+.interr {
+    width: 200px;
+    height: 200px;
+    background-color: #FED801;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+.interr h1 {
+    font-size: 80px;
+}
+.texto {
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto .odont{
+    color: white;
+}
+.texto .prevent{
+    color: black;
 }
 .butoes {
     height: 120px;
@@ -92,5 +120,11 @@ body{
     .butoes {
         height: 135px;
         margin-bottom: 10px;
+    }
+    .interr {
+        display: none;
+    }
+    .texto {
+        margin: 0;
     }
 }
