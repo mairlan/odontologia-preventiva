@@ -40,7 +40,7 @@ body {
     border-radius: 5px;
 }
 .titu {
-    width: 123px;
+    width: 158px;
 }
 .pontos {
     width: 80px;
@@ -68,7 +68,8 @@ body {
 }
 #header{
     width: 80%;
-    background-color: white;
+    background-color: rgb(183, 183, 183);
+    border-radius: 10px;
 }
 .resp {
     width: 417px;
